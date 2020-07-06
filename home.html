@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="product">
+        <div class="sproducts">
+            <img src="img/img1.PNG" onclick="myfunction(this)">
+            <img src="img/img2.PNG"onclick="myfunction(this)">
+            <img src="img/img3.PNG"onclick="myfunction(this)">
+            <img src="img/img4.PNG"onclick="myfunction(this)">
+            <img src="img/img5.PNG"onclick="myfunction(this)">
+            <img src="img/img6.PNG"onclick="myfunction(this)">
+            <img src="img/img7.PNG"onclick="myfunction(this)">
+        </div>
+        <div class="img-full">
+            <img id="im-box"src="img/img1.PNG">
+        </div>
+    </div>
+    <div class="box">
+        <h1>Printed Blazers for Men</h1><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> At maiores quisquam explicabo vero recusandae suscipit, consectetur inventore architecto <br>saepe nisi, sed, mollitia nihil. Nesciunt, libero id ipsam facere qui rerum.</p>
+         <ul>
+             <li>black</li>
+             <li>slik</li>
+             <li>available in cotton to</li>
+         </ul><br>
+         <h2>RS.1500 <s>RS.3500</s> (55%off)</h2>
+         <h4 class="bo">4.5</h4>
+         <button>Buy Now</button>
+         <button id="b">On MYNTRA</button>
+    </div>
+    <script>
+        function myfunction(small){
+            var fullimg = document.getElementById("im-box");
+            fullimg.src = small.src;
+        }
+    </script>
+</body>
+</html>

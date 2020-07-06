@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sproducts img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .6;
+}
+.sproducts img:hover{
+    opacity: 1;
+}
+.sproducts {
+    float: left;
+}
+.product{
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.img-full img{
+    height: 500px;
+}
+.img-full{
+    float: right;
+    padding: 10px;
+}
+.box {
+ text-align: right;
+  
+}
+.bo{
+    border: 1px solid green;
+    width: 30px;
+    border-radius: 30%;
+    text-align: center;
+    background: green;
+    color: #fff;
+}
+button{
+    background: orange;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+#b{
+    background: #fff;
+    color: #000;
+    border: 1px solid #111;
+}
